@@ -1,0 +1,8 @@
+package com.app.dao;
+
+import com.app.pojos.Packages;
+
+public interface IPackageDao {
+
+	public Integer addPackage(Packages packages);
+}

@@ -1,0 +1,577 @@
+
+Jan 15, 2020 19:49:11.99 NEW SESSION
+Jan 15, 2020 19:49:12.00 [7938:8036:0115/194911.994881:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-112069577478836200830
+Jan 15, 2020 19:49:24.17 [7938:7959:0115/194924.175816:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 19:49:45.32 [7938:7959:0115/194945.324982:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 19:49:45.87 [7938:7938:0115/194945.873520:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Jan 15, 2020 19:49:46.13 [7938:7938:0115/194946.137147:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-105).
+Jan 15, 2020 19:49:46.69 [7938:7938:0115/194946.697891:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-105).
+Jan 15, 2020 19:49:46.97 [7938:7938:0115/194946.975715:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-105).
+Jan 15, 2020 19:50:29.51 [7938:7959:0115/195029.509675:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 19:52:03.02 [7938:7959:0115/195203.028537:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 19:55:35.87 [7938:7959:0115/195535.872697:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 19:56:46.96 Opening in existing browser session.
+Jan 15, 2020 20:01:29.00 [7938:7938:0115/200129.005907:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 15, 2020 20:01:55.25 [7938:7938:0115/200155.253887:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 15, 2020 20:01:56.40 [7938:7959:0115/200156.407130:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 15, 2020 20:02:47.27 [7938:7938:0115/200247.271295:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 15, 2020 20:03:41.30 Opening in existing browser session.
+Jan 15, 2020 20:04:11.22 [7938:7938:0115/200411.228345:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 15, 2020 20:07:45.96 [7938:7938:0115/200745.969284:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 15, 2020 20:09:27.97 [7938:7959:0115/200927.974965:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+
+Jan 16, 2020 12:45:37.66 NEW SESSION
+Jan 16, 2020 12:45:37.66 [4565:4670:0116/124537.655693:ERROR:token_service_table.cc(140)] Failed to decrypt token for service AccountId-112069577478836200830
+Jan 16, 2020 12:45:54.44 [4565:4588:0116/124554.445316:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 12:46:15.16 [4565:4588:0116/124615.159821:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 12:46:15.34 [4565:4565:0116/124615.341993:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 16, 2020 12:46:16.42 [4565:4565:0116/124616.426246:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 16, 2020 12:47:13.72 [4565:4588:0116/124713.720663:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 12:48:42.11 [4565:4588:0116/124842.111255:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 12:51:43.85 [4565:4588:0116/125143.854482:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 12:55:00.45 [4565:4565:0116/125500.381787:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 12:55:23.99 [4565:4565:0116/125523.992335:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 12:55:46.49 [4565:4565:0116/125546.493998:ERROR:CONSOLE(3)] "Not allowed to load local resource: chrome://resources/css/text_defaults.css", source: chrome-extension://ahjaciijnoiaklcomgnblndopackapon/scope_approval_dialog.html (3)
+Jan 16, 2020 12:55:47.09 Fontconfig error: Cannot load default config file
+Jan 16, 2020 12:57:28.04 Opening in existing browser session.
+Jan 16, 2020 12:58:03.30 Opening in existing browser session.
+Jan 16, 2020 12:58:08.32 [4565:5327:0116/125808.322874:ERROR:password_syncable_service.cc(193)] Passwords datatype error was encountered: Failed to get passwords from store.
+Jan 16, 2020 13:12:29.47 [4565:4588:0116/131229.477109:ERROR:connection_handler_impl.cc(477)] Timed out waiting for GCM Protocol buffer.
+Jan 16, 2020 13:14:22.40 [4565:4588:0116/131422.406412:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 16, 2020 13:16:43.44 [6169:1:0116/131643.443073:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 13:16:43.44 [6169:1:0116/131643.443574:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 13:16:48.81 [6165:1:0116/131648.810523:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 13:16:48.81 [6165:1:0116/131648.811078:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 13:37:49.92 [4565:4588:0116/133749.920337:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 14:03:28.87 [4565:4588:0116/140328.873557:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:03:45.40 [4565:4588:0116/140345.404571:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:05:17.90 [4565:4588:0116/140517.903297:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:08:34.29 [4565:4588:0116/140834.299314:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:12:44.32 Opening in existing browser session.
+Jan 16, 2020 14:15:49.59 [4565:4588:0116/141549.590329:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:20:47.58 Opening in existing browser session.
+Jan 16, 2020 14:23:03.21 Opening in existing browser session.
+Jan 16, 2020 14:23:55.27 [4565:4565:0116/142355.270326:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:24:39.40 [4565:4565:0116/142439.406148:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:25:47.79 [4565:4565:0116/142547.791865:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:25:59.60 [4565:4588:0116/142559.603512:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:28:05.19 [4565:4565:0116/142805.194336:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:28:27.39 [4565:4565:0116/142827.395299:ERROR:CONSOLE(24)] "Empty response arrived for script 'devtools://devtools/remote/serve_file/@4b26898a39ee037623a72fcfb77279fce0e7d648/product_registry_impl/product_registry_impl_module.js'", source: devtools://devtools/bundled/shell.js (24)
+Jan 16, 2020 14:28:27.39 [4565:4565:0116/142827.396453:ERROR:CONSOLE(109)] "Uncaught (in promise) Error: Could not instantiate: ProductRegistryImpl.Registry", source: devtools://devtools/bundled/shell.js (109)
+Jan 16, 2020 14:31:34.08 [4565:4565:0116/143134.081131:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:35:59.68 [4565:4588:0116/143559.688504:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:38:48.39 [4565:4565:0116/143848.393497:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:46:09.70 [4565:4588:0116/144609.700942:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:46:54.30 [9629:1:0116/144654.300342:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 14:46:54.30 [9629:1:0116/144654.300771:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 14:47:18.61 Fontconfig error: Cannot load default config file
+Jan 16, 2020 14:49:08.41 [4565:4565:0116/144908.415452:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:51:43.24 [4565:4565:0116/145143.240637:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:51:44.94 [4565:4565:0116/145144.946210:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:51:49.09 [4565:4565:0116/145149.092237:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:51:51.18 [4565:4565:0116/145151.188768:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:51:52.80 [4565:4565:0116/145152.807748:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:51:59.30 [4565:4565:0116/145159.302792:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:52:06.34 [4565:4565:0116/145206.349281:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:52:16.36 [4565:4565:0116/145216.368916:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 13.461 s for first_image_paint 13.443 s
+Jan 16, 2020 14:52:58.41 Fontconfig error: Cannot load default config file
+Jan 16, 2020 14:56:19.71 [4565:4588:0116/145619.711781:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 14:59:08.72 [4565:4565:0116/145908.721028:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 16, 2020 14:59:19.00 [4565:4588:0116/145919.007220:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 15:03:23.63 [4603:4603:0116/150323.630054:ERROR:gles2_cmd_decoder.cc(8553)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glFramebufferTexture2D: <- error from previous GL command
+Jan 16, 2020 15:12:26.50 [11484:1:0116/151226.502991:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 15:12:26.50 [11484:1:0116/151226.503464:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 15:12:31.40 [11478:1:0116/151231.408934:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 15:12:31.40 [11478:1:0116/151231.409519:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 16, 2020 15:15:04.13 [4603:4603:0116/151504.135025:ERROR:gles2_cmd_decoder.cc(8553)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glFramebufferTexture2D: <- error from previous GL command
+Jan 16, 2020 15:28:48.27 Opening in existing browser session.
+Jan 16, 2020 15:37:00.45 [4565:4588:0116/153700.459681:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 15:47:56.22 [4565:4588:0116/154756.225420:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 16, 2020 15:48:25.93 [4565:4588:0116/154825.929869:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 16, 2020 15:50:23.89 [4565:4588:0116/155023.893965:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+
+Jan 16, 2020 18:57:07.67 NEW SESSION
+Jan 16, 2020 18:57:07.67 Opening in existing browser session.
+Jan 16, 2020 19:58:54.27 Opening in existing browser session.
+
+Jan 17, 2020 11:04:35.32 NEW SESSION
+Jan 17, 2020 11:04:35.32 [3042:3066:0117/110435.319465:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 11:04:58.59 [3042:3066:0117/110458.596336:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 11:04:59.13 [3042:3042:0117/110459.131980:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 17, 2020 11:04:59.99 [3042:3042:0117/110459.991409:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-106).
+Jan 17, 2020 11:05:00.40 [3042:3042:0117/110500.407858:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 17, 2020 11:05:01.03 [3042:3042:0117/110501.038271:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-106).
+Jan 17, 2020 11:05:48.73 [3042:3066:0117/110548.735227:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 11:07:46.38 [3042:3066:0117/110746.383546:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 11:09:02.48 Fontconfig error: Cannot load default config file
+Jan 17, 2020 11:09:43.64 [3618:1:0117/110943.644888:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:43.64 [3618:1:0117/110943.645584:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.62 [3730:1:0117/110952.621224:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.62 [3730:1:0117/110952.621741:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.68 [3730:1:0117/110952.682722:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.68 [3730:1:0117/110952.683813:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.81 [3730:1:0117/110952.812309:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:52.81 [3730:1:0117/110952.813192:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:53.78 [3730:1:0117/110953.783769:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:53.78 [3730:1:0117/110953.784342:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:53.78 [3730:1:0117/110953.785249:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:53.78 [3730:1:0117/110953.785760:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:54.55 [3042:3758:0117/110954.553844:ERROR:password_syncable_service.cc(193)] Passwords datatype error was encountered: Failed to get passwords from store.
+Jan 17, 2020 11:09:59.84 [3730:1:0117/110959.847001:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:09:59.85 [3730:1:0117/110959.852636:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:04.89 [3804:1:0117/111004.891868:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:04.89 [3804:1:0117/111004.893150:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:12.71 [3803:1:0117/111012.711296:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:12.71 [3803:1:0117/111012.712259:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.72 [3845:1:0117/111018.722698:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.72 [3845:1:0117/111018.723784:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.74 [3845:1:0117/111018.746644:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.74 [3845:1:0117/111018.747160:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.79 [3845:1:0117/111018.798796:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:18.79 [3845:1:0117/111018.799159:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:21.37 [3834:1:0117/111021.372590:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:21.37 [3834:1:0117/111021.372937:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 11:10:48.57 [3042:3042:0117/111048.571926:ERROR:CONSOLE(3)] "Not allowed to load local resource: chrome://resources/css/text_defaults.css", source: chrome-extension://ahjaciijnoiaklcomgnblndopackapon/scope_approval_dialog.html (3)
+Jan 17, 2020 11:31:31.74 Gtk-Message: 11:31:31.740: GtkDialog mapped without a transient parent. This is discouraged.
+Jan 17, 2020 11:32:43.61 [3042:3066:0117/113243.618615:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 11:56:02.56 [3042:3066:0117/115602.560697:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 11:56:55.57 [3042:3066:0117/115655.578632:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 11:58:58.82 [3042:3066:0117/115858.827276:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 12:01:27.14 [3042:3066:0117/120127.141013:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 12:06:39.90 [5796:1:0117/120639.909276:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:06:39.91 [5796:1:0117/120639.910131:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:06:45.00 [5795:1:0117/120645.001438:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:06:45.00 [5795:1:0117/120645.001913:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:07:42.98 Gtk-Message: 12:07:42.989: GtkDialog mapped without a transient parent. This is discouraged.
+Jan 17, 2020 12:19:26.11 [6094:1:0117/121926.112739:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:26.11 [6094:1:0117/121926.113659:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:30.68 [6093:1:0117/121930.686354:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:30.68 [6093:1:0117/121930.686744:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:42.61 [6156:1:0117/121942.614795:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:42.61 [6156:1:0117/121942.615866:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:42.61 [6156:1:0117/121942.618705:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:42.61 [6156:1:0117/121942.619703:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:50.39 [6156:1:0117/121950.398354:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:19:50.40 [6156:1:0117/121950.400269:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:20:41.24 [6156:1:0117/122041.248693:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:20:41.24 [6156:1:0117/122041.249161:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:21:09.37 [6156:1:0117/122109.373280:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:21:09.37 [6156:1:0117/122109.374060:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:11.24 [6254:1:0117/122211.243581:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:11.24 [6254:1:0117/122211.244040:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:15.82 [6253:1:0117/122215.821117:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:15.82 [6253:1:0117/122215.821677:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:40.34 [6299:12:0117/122240.340916:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+Jan 17, 2020 12:22:40.34 [6299:12:0117/122240.341278:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+Jan 17, 2020 12:22:40.58 [6299:1:0117/122240.587509:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:22:40.59 [6299:1:0117/122240.588996:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:22:40.59 [6299:1:0117/122240.590269:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:22:40.59 [6299:1:0117/122240.591632:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:22:40.59 [6299:1:0117/122240.592360:ERROR:rtc_peer_connection_handler.cc(2355)] Failed to create native session description. Type: offer SDP: v=0
+Jan 17, 2020 12:22:40.59 o=- 3217791672734594665 2 IN IP4 127.0.0.1
+Jan 17, 2020 12:22:40.59 s=-
+Jan 17, 2020 12:22:40.59 t=0 0
+Jan 17, 2020 12:22:40.59 a=group:BUNDLE 0
+Jan 17, 2020 12:22:40.59 a=msid-semantic: WMS
+Jan 17, 2020 12:22:40.59 m=application 9 UDP/TLS/RTP/SAVPF 119
+Jan 17, 2020 12:22:40.59 c=IN IP4 0.0.0.0
+Jan 17, 2020 12:22:40.59 b=AS:30
+Jan 17, 2020 12:22:40.59 a=rtcp:9 IN IP4 0.0.0.0
+Jan 17, 2020 12:22:40.59 a=ice-ufrag:z9pF
+Jan 17, 2020 12:22:40.59 a=ice-pwd:DIfQUqfQz1bSRX6Jv7nb2Cu5
+Jan 17, 2020 12:22:40.59 a=ice-options:trickle
+Jan 17, 2020 12:22:40.59 a=fingerprint:sha-256 4F:44:FA:71:5A:24:8E:1C:44:3F:6D:38:42:CC:5B:47:1C:3C:06:87:BF:18:90:C9:7C:A2:1B:DA:B3:D9:CB:DF
+Jan 17, 2020 12:22:40.59 a=setup:actpass
+Jan 17, 2020 12:22:40.59 a=mid:0
+Jan 17, 2020 12:22:40.59 a=sendrecv
+Jan 17, 2020 12:22:40.59 a=msid: 
+Jan 17, 2020 12:22:40.59 a=rtcp-mux
+Jan 17, 2020 12:22:40.59 a=rtpmap:119 google-data/90000
+Jan 17, 2020 12:22:40.59 a=ssrc:3746620645 cname:q/xZ5ZarZhdkseWy
+Jan 17, 2020 12:22:40.59 a=ssrc:3746620645 msid:- 
+Jan 17, 2020 12:22:40.59 a=ssrc:3746620645 mslabel:-
+Jan 17, 2020 12:22:40.59 a=ssrc:3746620645 label:
+Jan 17, 2020 12:22:40.59 
+Jan 17, 2020 12:22:40.59 [6299:1:0117/122240.592452:ERROR:rtc_peer_connection_handler.cc(1235)] Failed to parse SessionDescription. a=msid:  Missing track ID in msid attribute.
+Jan 17, 2020 12:22:41.49 [6323:1:0117/122241.495784:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:41.49 [6323:1:0117/122241.496314:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:41.51 [6323:1:0117/122241.513011:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:41.51 [6323:1:0117/122241.513910:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:42.54 [6333:1:0117/122242.540065:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:42.54 [6333:1:0117/122242.540445:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:42.54 [6333:1:0117/122242.541296:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:22:42.54 [6333:1:0117/122242.542033:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:23:38.61 [6333:1:0117/122338.615536:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:23:38.61 [6333:1:0117/122338.616335:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:23:38.61 [6333:1:0117/122338.619448:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:23:38.62 [6333:1:0117/122338.620187:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:43.46 [6299:12:0117/122443.460181:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+Jan 17, 2020 12:24:43.46 [6299:12:0117/122443.460307:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.603508:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.604632:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.604859:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.605071:ERROR:webrtc_sdp.cc(407)] Failed to parse: "a=msid: ". Reason: Missing track ID in msid attribute.
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.605143:ERROR:rtc_peer_connection_handler.cc(2355)] Failed to create native session description. Type: offer SDP: v=0
+Jan 17, 2020 12:24:43.60 o=- 2084245243779477456 2 IN IP4 127.0.0.1
+Jan 17, 2020 12:24:43.60 s=-
+Jan 17, 2020 12:24:43.60 t=0 0
+Jan 17, 2020 12:24:43.60 a=group:BUNDLE 0
+Jan 17, 2020 12:24:43.60 a=msid-semantic: WMS
+Jan 17, 2020 12:24:43.60 m=application 9 UDP/TLS/RTP/SAVPF 119
+Jan 17, 2020 12:24:43.60 c=IN IP4 0.0.0.0
+Jan 17, 2020 12:24:43.60 b=AS:30
+Jan 17, 2020 12:24:43.60 a=rtcp:9 IN IP4 0.0.0.0
+Jan 17, 2020 12:24:43.60 a=ice-ufrag:HCEr
+Jan 17, 2020 12:24:43.60 a=ice-pwd:5CWQ+1MGYYBnq16Vq/mD4iI1
+Jan 17, 2020 12:24:43.60 a=ice-options:trickle
+Jan 17, 2020 12:24:43.60 a=fingerprint:sha-256 AF:5E:A4:6E:D9:D4:A2:16:97:A7:45:2B:CB:C0:42:2F:2C:F5:BE:3D:8B:A7:EA:2E:87:C5:D2:73:C1:CC:05:E2
+Jan 17, 2020 12:24:43.60 a=setup:actpass
+Jan 17, 2020 12:24:43.60 a=mid:0
+Jan 17, 2020 12:24:43.60 a=sendrecv
+Jan 17, 2020 12:24:43.60 a=msid: 
+Jan 17, 2020 12:24:43.60 a=rtcp-mux
+Jan 17, 2020 12:24:43.60 a=rtpmap:119 google-data/90000
+Jan 17, 2020 12:24:43.60 a=ssrc:1115753063 cname:wJ8YEZnx0wo77Ijv
+Jan 17, 2020 12:24:43.60 a=ssrc:1115753063 msid:- 
+Jan 17, 2020 12:24:43.60 a=ssrc:1115753063 mslabel:-
+Jan 17, 2020 12:24:43.60 a=ssrc:1115753063 label:
+Jan 17, 2020 12:24:43.60 
+Jan 17, 2020 12:24:43.60 [6299:1:0117/122443.605227:ERROR:rtc_peer_connection_handler.cc(1235)] Failed to parse SessionDescription. a=msid:  Missing track ID in msid attribute.
+Jan 17, 2020 12:24:44.80 [6539:1:0117/122444.805089:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:44.80 [6539:1:0117/122444.806557:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:44.80 [6539:1:0117/122444.809181:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:44.81 [6539:1:0117/122444.810186:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:45.26 [6539:1:0117/122445.267704:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:45.27 [6539:1:0117/122445.270405:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:45.27 [6539:1:0117/122445.273113:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:24:45.27 [6539:1:0117/122445.274047:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 17, 2020 12:29:00.26 [3042:3066:0117/122900.262737:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 17, 2020 12:53:48.66 [3042:3066:0117/125348.661513:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -21
+Jan 17, 2020 12:54:02.35 [3042:3066:0117/125402.352501:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 12:55:39.09 [3042:3066:0117/125539.095331:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 12:59:17.44 [3042:3066:0117/125917.441224:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 13:05:30.38 [3042:3066:0117/130530.384896:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 13:15:30.68 [3042:3066:0117/131530.682507:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 17, 2020 13:15:41.12 [3042:3042:0117/131541.129494:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 17, 2020 13:16:03.71 [3042:3042:0117/131603.711926:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+
+Jan 17, 2020 16:24:46.59 NEW SESSION
+Jan 17, 2020 16:24:46.59 Opening in existing browser session.
+Jan 17, 2020 16:39:39.64 Opening in existing browser session.
+Jan 17, 2020 16:42:23.62 Opening in existing browser session.
+Jan 17, 2020 16:43:35.41 Opening in existing browser session.
+
+Jan 18, 2020 24:28:18.62 NEW SESSION
+Jan 18, 2020 24:28:18.62 [2280:2303:0118/002818.627123:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2020 24:28:37.08 [2280:2280:0118/002837.085798:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 18, 2020 24:28:37.41 [2280:2280:0118/002837.416635:ERROR:account_tracker.cc(241)] AccessTokenFetched error: Connection failed (-106).
+Jan 18, 2020 24:28:46.24 [2280:2303:0118/002846.245691:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2020 24:29:33.84 [2280:2303:0118/002933.843087:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 18, 2020 01:47:55.53 Opening in existing browser session.
+
+Jan 18, 2020 14:15:41.23 NEW SESSION
+Jan 18, 2020 14:15:41.23 Opening in existing browser session.
+Jan 18, 2020 14:35:01.42 Opening in existing browser session.
+Jan 18, 2020 14:36:55.80 Opening in existing browser session.
+Jan 18, 2020 15:10:21.62 Opening in existing browser session.
+Jan 18, 2020 16:07:15.72 Opening in existing browser session.
+Jan 18, 2020 17:33:11.15 Opening in existing browser session.
+Jan 18, 2020 17:41:50.32 Opening in existing browser session.
+Jan 18, 2020 17:43:57.26 Opening in existing browser session.
+Jan 18, 2020 17:44:34.07 Opening in existing browser session.
+Jan 18, 2020 17:45:48.22 Opening in existing browser session.
+Jan 18, 2020 17:46:37.64 Opening in existing browser session.
+Jan 18, 2020 17:51:31.75 Opening in existing browser session.
+Jan 18, 2020 18:05:58.07 Opening in existing browser session.
+Jan 18, 2020 18:08:03.25 Opening in existing browser session.
+Jan 18, 2020 18:32:26.91 Opening in existing browser session.
+Jan 18, 2020 18:36:34.08 Opening in existing browser session.
+Jan 18, 2020 18:46:19.69 Opening in existing browser session.
+Jan 18, 2020 18:58:58.64 Opening in existing browser session.
+Jan 18, 2020 19:01:23.53 Opening in existing browser session.
+Jan 18, 2020 19:05:50.04 Opening in existing browser session.
+Jan 18, 2020 19:10:19.26 Opening in existing browser session.
+Jan 18, 2020 19:13:41.32 Opening in existing browser session.
+Jan 18, 2020 19:47:12.93 Opening in existing browser session.
+Jan 18, 2020 19:51:38.30 Opening in existing browser session.
+Jan 18, 2020 20:00:00.13 Opening in existing browser session.
+Jan 18, 2020 20:11:59.05 Opening in existing browser session.
+Jan 18, 2020 20:14:38.52 Opening in existing browser session.
+Jan 18, 2020 22:12:18.27 Opening in existing browser session.
+Jan 18, 2020 22:25:46.45 Opening in existing browser session.
+Jan 18, 2020 22:45:05.38 Opening in existing browser session.
+Jan 18, 2020 22:51:35.32 Opening in existing browser session.
+
+Jan 19, 2020 18:22:02.00 NEW SESSION
+Jan 19, 2020 18:22:02.00 Opening in existing browser session.
+
+Jan 20, 2020 18:01:30.12 NEW SESSION
+Jan 20, 2020 18:01:30.12 Opening in existing browser session.
+
+Jan 20, 2020 22:06:14.22 NEW SESSION
+Jan 20, 2020 22:06:14.22 Opening in existing browser session.
+Jan 20, 2020 22:07:35.09 Opening in existing browser session.
+Jan 20, 2020 23:53:07.86 Opening in existing browser session.
+
+Jan 21, 2020 09:20:28.83 NEW SESSION
+Jan 21, 2020 09:20:28.83 Opening in existing browser session.
+Jan 21, 2020 10:22:25.76 Opening in existing browser session.
+Jan 21, 2020 10:48:17.15 Opening in existing browser session.
+Jan 21, 2020 10:59:45.80 Opening in existing browser session.
+Jan 21, 2020 11:02:43.22 Opening in existing browser session.
+Jan 21, 2020 11:06:12.44 Opening in existing browser session.
+Jan 21, 2020 12:52:33.47 Opening in existing browser session.
+Jan 21, 2020 13:00:53.86 Opening in existing browser session.
+
+Jan 21, 2020 14:09:00.08 NEW SESSION
+Jan 21, 2020 14:09:00.08 [12093:12203:0121/140900.081286:ERROR:password_syncable_service.cc(193)] Passwords datatype error was encountered: Failed to get passwords from store.
+Jan 21, 2020 14:10:09.90 [12093:12116:0121/141009.901602:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:11:10.73 [12093:12116:0121/141110.737459:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:12:11.57 [12093:12116:0121/141211.578205:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:13:12.41 [12093:12116:0121/141312.414359:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:14:13.25 [12093:12116:0121/141413.250448:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:15:14.09 [12093:12116:0121/141514.093964:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:16:14.92 [12093:12116:0121/141614.929301:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:17:15.76 [12093:12116:0121/141715.762608:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:19:17.43 [12093:12116:0121/141917.437184:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:19:51.03 Opening in existing browser session.
+Jan 21, 2020 14:20:18.28 [12093:12116:0121/142018.286419:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:21:19.11 [12093:12116:0121/142119.113324:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:22:19.95 [12093:12116:0121/142219.950845:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:23:21.80 [12093:12116:0121/142321.803353:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:24:22.64 [12093:12116:0121/142422.640276:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:25:23.47 [12093:12116:0121/142523.479107:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:26:24.31 [12093:12116:0121/142624.315716:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:27:25.15 [12093:12116:0121/142725.153329:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:28:25.98 [12093:12116:0121/142825.989277:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:29:26.82 [12093:12116:0121/142926.827507:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:30:27.66 [12093:12116:0121/143027.666747:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:31:28.50 [12093:12116:0121/143128.502402:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:32:29.34 [12093:12116:0121/143229.340533:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:33:30.17 [12093:12116:0121/143330.178136:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:34:19.60 Opening in existing browser session.
+Jan 21, 2020 14:34:31.01 [12093:12116:0121/143431.014384:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:35:31.86 [12093:12116:0121/143531.861107:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:36:32.69 [12093:12116:0121/143632.690657:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:37:19.08 Opening in existing browser session.
+Jan 21, 2020 14:37:33.52 [12093:12116:0121/143733.528211:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:38:34.37 [12093:12116:0121/143834.379789:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:39:35.20 [12093:12116:0121/143935.202077:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:39:53.55 Opening in existing browser session.
+Jan 21, 2020 14:40:36.04 [12093:12116:0121/144036.040036:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:40:44.23 [12093:12093:0121/144044.235267:ERROR:CONSOLE(3)] "Not allowed to load local resource: chrome://resources/css/text_defaults.css", source: chrome-extension://ahjaciijnoiaklcomgnblndopackapon/scope_approval_dialog.html (3)
+Jan 21, 2020 14:41:36.87 [12093:12116:0121/144136.876524:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:42:40.76 [12093:12116:0121/144240.756218:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:43:11.36 Opening in existing browser session.
+Jan 21, 2020 14:43:41.59 [12093:12116:0121/144341.594753:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:44:42.44 [12093:12116:0121/144442.431621:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:45:43.27 [12093:12116:0121/144543.269994:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:46:44.10 [12093:12116:0121/144644.108242:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:47:44.94 [12093:12116:0121/144744.944709:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:48:45.78 [12093:12116:0121/144845.782916:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:49:46.62 [12093:12116:0121/144946.619689:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:50:47.45 [12093:12116:0121/145047.456289:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:51:48.29 [12093:12116:0121/145148.294264:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:52:49.13 [12093:12116:0121/145249.132812:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:53:49.97 [12093:12116:0121/145349.969850:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:54:50.82 [12093:12116:0121/145450.823554:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:55:51.64 [12093:12116:0121/145551.648048:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:56:52.50 [12093:12116:0121/145652.502955:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:57:53.32 [12093:12116:0121/145753.324415:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:58:54.16 [12093:12116:0121/145854.160381:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 14:59:55.00 [12093:12116:0121/145955.002268:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:00:50.95 Opening in existing browser session.
+Jan 21, 2020 15:00:55.83 [12093:12116:0121/150055.832057:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:01:56.67 [12093:12116:0121/150156.671727:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:02:57.50 [12093:12116:0121/150257.508249:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:03:58.34 [12093:12116:0121/150358.345008:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:04:59.18 [12093:12116:0121/150459.182749:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:06:00.02 [12093:12116:0121/150600.022167:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:07:00.85 [12093:12116:0121/150700.859661:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:08:01.69 [12093:12116:0121/150801.695368:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:09:02.54 [12093:12116:0121/150902.548219:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:10:03.38 [12093:12116:0121/151003.386164:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:11:04.22 [12093:12116:0121/151104.222982:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:12:05.06 [12093:12116:0121/151205.061968:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:13:05.90 [12093:12116:0121/151305.903209:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:14:06.73 [12093:12116:0121/151406.738206:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:15:07.57 [12093:12116:0121/151507.574017:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:16:08.41 [12093:12116:0121/151608.411770:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:17:09.25 [12093:12116:0121/151709.250442:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:18:10.08 [12093:12116:0121/151810.086136:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:19:10.92 [12093:12116:0121/151910.922730:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:20:11.76 [12093:12116:0121/152011.762216:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:21:12.59 [12093:12116:0121/152112.598669:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:22:13.43 [12093:12116:0121/152213.436264:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:23:14.27 [12093:12116:0121/152314.274993:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:24:15.11 [12093:12116:0121/152415.112663:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:25:15.96 [12093:12116:0121/152515.961678:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:26:16.78 [12093:12116:0121/152616.786497:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:27:17.62 [12093:12116:0121/152717.625803:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:28:18.46 [12093:12116:0121/152818.462582:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:29:19.30 [12093:12116:0121/152919.300362:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:30:20.13 [12093:12116:0121/153020.136889:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:31:21.98 [12093:12116:0121/153121.987933:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:32:22.84 [12093:12116:0121/153222.845452:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:33:23.66 [12093:12116:0121/153323.664624:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:34:24.52 [12093:12116:0121/153424.526326:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:35:25.34 [12093:12116:0121/153525.339990:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:36:26.17 [12093:12116:0121/153626.177092:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:37:27.04 [12093:12116:0121/153727.048950:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:38:27.85 [12093:12116:0121/153827.851250:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:39:28.68 [12093:12116:0121/153928.689001:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:39:52.10 Opening in existing browser session.
+Jan 21, 2020 15:40:29.52 [12093:12116:0121/154029.528672:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:41:30.36 [12093:12116:0121/154130.365111:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:42:31.20 [12093:12116:0121/154231.201758:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:43:32.04 [12093:12116:0121/154332.041809:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:44:32.87 [12093:12116:0121/154432.878925:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:45:33.71 [12093:12116:0121/154533.714411:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:46:02.50 [16281:1:0121/154602.499527:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:02.50 [16281:1:0121/154602.501165:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:07.32 [16280:1:0121/154607.323723:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:07.32 [16280:1:0121/154607.324429:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:25.79 [16313:1:0121/154625.793860:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:25.79 [16313:1:0121/154625.794853:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 15:46:34.55 [12093:12116:0121/154634.551042:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:47:35.39 [12093:12116:0121/154735.390756:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:48:36.23 [12093:12116:0121/154836.230345:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:49:37.06 [12093:12116:0121/154937.064066:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:50:37.90 [12093:12116:0121/155037.902167:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:51:38.73 [12093:12116:0121/155138.738777:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:52:39.57 [12093:12116:0121/155239.576244:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:53:40.41 [12093:12116:0121/155340.415675:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:54:41.25 [12093:12116:0121/155441.257575:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:55:42.14 [12093:12116:0121/155542.144702:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:56:42.92 [12093:12116:0121/155642.927078:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:56:53.70 [12093:12093:0121/155653.707229:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.2 s for first_image_paint 1.165 s
+Jan 21, 2020 15:57:43.76 [12093:12116:0121/155743.766438:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:58:44.60 [12093:12116:0121/155844.603776:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 15:59:45.44 [12093:12116:0121/155945.441094:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:00:46.27 [12093:12116:0121/160046.278447:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:01:47.12 [12093:12116:0121/160147.123790:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:02:47.95 [12093:12116:0121/160247.951927:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:03:48.79 [12093:12116:0121/160348.790083:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:04:45.03 [16487:1:0121/160445.035408:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:04:45.03 [16487:1:0121/160445.036066:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:04:49.46 [16486:1:0121/160449.463648:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:04:49.46 [16486:1:0121/160449.464349:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:04:49.62 [12093:12116:0121/160449.628227:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:05:18.04 [16546:1:0121/160518.043687:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:18.04 [16546:1:0121/160518.044268:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:18.04 [16546:1:0121/160518.045339:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:18.04 [16546:1:0121/160518.046155:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:20.78 [16532:1:0121/160520.783136:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:20.78 [16532:1:0121/160520.784969:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:20.78 [16532:1:0121/160520.787533:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:20.79 [16532:1:0121/160520.791491:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:05:50.46 [12093:12116:0121/160550.465755:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:06:00.45 [16661:1:0121/160600.450836:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:00.45 [16661:1:0121/160600.451540:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:00.45 [16661:1:0121/160600.452503:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:00.45 [16661:1:0121/160600.453178:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:02.42 [16620:1:0121/160602.428574:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:02.42 [16620:1:0121/160602.429074:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:02.43 [16620:1:0121/160602.430353:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:02.43 [16620:1:0121/160602.431535:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.05 [16685:1:0121/160617.056412:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.05 [16685:1:0121/160617.056988:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.05 [16685:1:0121/160617.058664:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.05 [16685:1:0121/160617.059489:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.07 [16685:1:0121/160617.076297:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.07 [16685:1:0121/160617.076656:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.71 [16685:1:0121/160617.717034:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.71 [16685:1:0121/160617.717604:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.71 [16685:1:0121/160617.719160:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.719917:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.721663:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.722416:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.724401:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.725203:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.727360:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:17.72 [16685:1:0121/160617.728484:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:06:21.91 [16685:13:0121/160621.911362:ERROR:data_channel.cc(54)] Accepting maxRetransmits = -1 for backwards compatibility
+Jan 21, 2020 16:06:21.91 [16685:13:0121/160621.911632:ERROR:data_channel.cc(59)] Accepting maxRetransmitTime = -1 for backwards compatibility
+Jan 21, 2020 16:06:44.26 [12093:12093:0121/160644.264077:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint (unset) for first_image_paint 1.097 s
+Jan 21, 2020 16:06:45.26 [12093:12093:0121/160645.264218:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.107 s for first_image_paint 1.097 s
+Jan 21, 2020 16:06:46.46 [12093:12093:0121/160646.468442:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.107 s for first_image_paint 1.097 s
+Jan 21, 2020 16:06:51.30 [12093:12116:0121/160651.302735:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:07:46.95 [12093:12093:0121/160746.953181:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.83 s for first_image_paint 0.828 s
+Jan 21, 2020 16:07:47.99 [12093:12093:0121/160747.995942:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.83 s for first_image_paint 0.828 s
+Jan 21, 2020 16:07:49.47 [12093:12093:0121/160749.470043:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.83 s for first_image_paint 0.828 s
+Jan 21, 2020 16:07:52.13 [12093:12116:0121/160752.139660:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:08:52.97 [12093:12116:0121/160852.977394:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:09:53.81 [12093:12116:0121/160953.814883:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:10:54.65 [12093:12116:0121/161054.657662:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:11:55.50 [12093:12116:0121/161155.502792:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:12:48.97 [16863:1:0121/161248.973683:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:12:48.97 [16863:1:0121/161248.974232:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:12:53.44 [16862:1:0121/161253.445328:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:12:53.44 [16862:1:0121/161253.445869:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:12:56.32 [12093:12116:0121/161256.327119:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:13:14.36 [16902:1:0121/161314.364324:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:14.36 [16902:1:0121/161314.364862:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:25.56 [16698:1:0121/161325.559988:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:25.56 [16698:1:0121/161325.562709:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:25.56 [16698:1:0121/161325.563930:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:25.56 [16698:1:0121/161325.564711:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:27.37 Fontconfig error: Cannot load default config file
+Jan 21, 2020 16:13:36.03 [17046:1:0121/161336.033673:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:56.29 [16698:1:0121/161356.296866:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:56.29 [16698:1:0121/161356.297675:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:56.30 [16698:1:0121/161356.299935:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:56.30 [16698:1:0121/161356.300673:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:13:58.05 [12093:12116:0121/161358.051566:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:14:05.11 Fontconfig error: Cannot load default config file
+Jan 21, 2020 16:15:03.07 [12093:12116:0121/161503.071791:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:16:03.91 [12093:12116:0121/161603.914621:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:17:04.74 [12093:12116:0121/161704.746792:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:18:05.58 [12093:12116:0121/161805.585301:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:19:06.42 [12093:12116:0121/161906.423344:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:20:07.26 [12093:12116:0121/162007.259697:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:21:08.09 [12093:12116:0121/162108.097798:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:22:10.98 [12093:12116:0121/162210.981527:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:23:18.99 [12093:12116:0121/162318.995384:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:24:19.84 [12093:12116:0121/162419.849140:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:25:20.67 [12093:12116:0121/162520.678468:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 21, 2020 16:25:46.02 [12093:12116:0121/162546.024814:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -111
+Jan 21, 2020 16:26:36.72 [12093:12116:0121/162636.725203:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -111
+Jan 21, 2020 16:27:53.92 [12093:12116:0121/162753.927775:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -111
+Jan 21, 2020 16:29:06.78 [12093:12093:0121/162906.787169:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 21, 2020 16:30:01.54 [12093:12093:0121/163001.543472:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 21, 2020 16:30:08.63 [12093:12116:0121/163008.636991:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -111
+Jan 21, 2020 16:30:53.72 [12093:12116:0121/163053.722777:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -130
+Jan 21, 2020 16:30:58.86 [12093:12093:0121/163058.863969:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 21, 2020 16:33:00.03 [12093:12093:0121/163300.038631:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 21, 2020 16:33:24.27 [12093:12116:0121/163324.273954:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -130
+Jan 21, 2020 16:36:50.55 [12093:12093:0121/163650.554463:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Jan 21, 2020 16:40:46.72 Fontconfig error: Cannot load default config file
+Jan 21, 2020 16:40:53.95 [18763:1:0121/164053.951084:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:40:53.95 [18763:1:0121/164053.951525:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 16:58:50.56 [12093:12093:0121/165850.565217:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 16:58:55.74 [12093:12093:0121/165855.748782:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 17:03:31.29 [12093:12093:0121/170331.290228:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 17:03:33.08 [12093:12093:0121/170333.086319:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 17:03:35.64 [12093:12093:0121/170335.649023:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 17:04:11.48 [12093:12093:0121/170411.484743:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 1.894 s for first_image_paint 1.868 s
+Jan 21, 2020 17:16:08.14 Fontconfig error: Cannot load default config file
+Jan 21, 2020 17:32:29.58 [12093:12116:0121/173229.585612:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -106
+Jan 21, 2020 18:36:50.55 [21655:1:0121/183650.553947:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 18:36:50.55 [21655:1:0121/183650.554489:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 18:36:55.07 [21650:1:0121/183655.075628:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 18:36:55.07 [21650:1:0121/183655.076089:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 19:23:45.74 [12093:12116:0121/192345.739891:ERROR:connection_factory_impl.cc(417)] Failed to connect to MCS endpoint with error -105
+Jan 21, 2020 19:56:55.50 Opening in existing browser session.
+Jan 21, 2020 20:04:22.28 [23392:1:0121/200422.285130:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:22.28 [23392:1:0121/200422.285494:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.16 [23507:1:0121/200431.168191:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.16 [23507:1:0121/200431.168837:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.17 [23507:1:0121/200431.170038:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.17 [23507:1:0121/200431.170626:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.17 [23507:1:0121/200431.172269:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.17 [23507:1:0121/200431.174646:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:04:31.45 [12135:12139:0121/200431.449992:ERROR:ssl_client_socket_impl.cc(969)] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan 21, 2020 20:25:50.41 [24382:1:0121/202550.418511:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:25:50.44 [24382:1:0121/202550.421125:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:25:50.44 [24382:1:0121/202550.425357:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Jan 21, 2020 20:25:50.44 [24382:1:0121/202550.426492:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.

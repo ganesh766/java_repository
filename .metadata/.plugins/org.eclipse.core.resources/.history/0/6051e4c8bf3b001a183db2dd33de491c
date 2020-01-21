@@ -1,0 +1,22 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.City;
+import com.app.pojos.Packages;
+import com.app.pojos.User;
+
+public interface IUserDao {
+
+	public Integer registerUser(User user);
+	public User login(User user);
+	
+	public List<User> allUser();
+	public User findByEmail(String em);
+
+	public int generateOtp();
+	public List<Packages> search(Integer cityid);
+	public List<City> getAllCities();
+	public City searchCity(String cityName);
+	
+}

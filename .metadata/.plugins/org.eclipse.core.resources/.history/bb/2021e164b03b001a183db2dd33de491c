@@ -1,0 +1,12 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.Packages;
+
+public interface IPackageDao {
+
+	public Integer addPackage(Packages packages);
+	List<Packages> getAllPackages();
+	public boolean deletePackage(int id); 
+}

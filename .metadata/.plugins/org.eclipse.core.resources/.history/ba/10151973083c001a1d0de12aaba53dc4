@@ -1,0 +1,51 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.app.pojos.City;
+import com.app.pojos.Packages;
+@CrossOrigin(allowedHeaders="*")
+@Service
+@Transactional
+public class PackageDaoImpl implements IPackageDao {
+
+	@Autowired
+	private SessionFactory sf;
+
+	@Override
+	public Integer addPackage(Packages packages) {
+		return (Integer) sf.getCurrentSession().save(packages);
+	}
+
+	@Override
+	public List<Packages> getAllPackages() {
+		String jpql="select p from Packages p";
+		return 	sf.getCurrentSession().createQuery(jpql,Packages.class).getResultList();
+		
+	}
+
+	@Override
+	public Packages getPackagesById(int id) {
+		return sf.getCurrentSession().get(Packages.class, id);
+	}
+
+	@Override
+	public boolean deletePackage(int id) {
+		
+		Packages packages=sf.getCurrentSession().get(Packages.class,id);
+		sf.getCurrentSession().delete(packages);
+		return true;
+	}
+	@Override
+	public City searchCity(String cityName)
+	{
+		return sf.getCurrentSession().createQuery("select c from City c where c.cityName=:cn",City.class).setParameter("cn",cityName).getSingleResult();
+	}
+	
+}

@@ -1,0 +1,6 @@
+package com.app.dao;
+
+public class PackadeDaoImpl implements IPackageDao {
+
+	
+}

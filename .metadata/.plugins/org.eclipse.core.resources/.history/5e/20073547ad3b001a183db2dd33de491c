@@ -1,0 +1,6 @@
+package com.app.dao;
+
+public interface IPackageDao {
+
+	public Integer addPackage(Packages package);
+}

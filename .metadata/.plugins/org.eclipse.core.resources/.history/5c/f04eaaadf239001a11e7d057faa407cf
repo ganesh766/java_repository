@@ -1,0 +1,147 @@
+package com.app.pojos;
+
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.NotEmpty;
+@Entity
+@Table(name="packages")
+public class Packages
+{
+private Integer packageId;
+
+@NotEmpty(message="enter package Name")
+private String packageName;
+
+@NotNull(message="enter cost")
+private int decorationCost;
+@NotNull(message="enter cost")
+private int photographyCost;
+@NotNull(message="enter cost")
+private int venueCost;
+
+private int totalCost;
+@NotNull(message="enter  cost")
+private int cateringCost;
+public User user;
+private City city;
+private Booking mybooking;
+public Packages() {
+	// TODO Auto-generated constructor stub
+	this.city= new City();
+	this.user= new User();
+}
+
+public Packages(Integer packageId, String packageName, int decorationCost, int photographyCost, int venueCost,
+		int totalCost, int cateringCost, User user, City city, Booking mybooking) {
+	super();
+	this.packageId = packageId;
+	this.packageName = packageName;
+	this.decorationCost = decorationCost;
+	this.photographyCost = photographyCost;
+	this.venueCost = venueCost;
+	this.totalCost = totalCost;
+	this.cateringCost = cateringCost;
+	this.user = user;
+	this.city = city;
+	this.mybooking = mybooking;
+}
+
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+public Integer getPackageId() {
+	return packageId;
+}
+
+public void setPackageId(Integer packageId) {
+	this.packageId = packageId;
+}
+
+
+public String getPackageName() {
+	return packageName;
+}
+
+public void setPackageName(String packageName) {
+	this.packageName = packageName;
+}
+
+@OneToOne(mappedBy="packages",cascade=CascadeType.ALL)
+public Booking getMybooking() {
+	return mybooking;
+}
+public void setMybooking(Booking mybooking) {
+	this.mybooking = mybooking;
+}
+
+public int getDecorationCost() {
+	return decorationCost;
+}
+
+public void setDecorationCost(int decorationCost) {
+	this.decorationCost = decorationCost;
+}
+
+public int getPhotographyCost() {
+	return photographyCost;
+}
+
+public void setPhotographyCost(int photographyCost) {
+	this.photographyCost = photographyCost;
+}
+
+public int getVenueCost() {
+	return venueCost;
+}
+
+public void setVenueCost(int venueCost) {
+	this.venueCost = venueCost;
+}
+
+public int getTotalCost() {
+	return totalCost;
+}
+
+public void setTotalCost(int totalCost) {
+	this.totalCost = totalCost;
+}
+
+public int getCateringCost() {
+	return cateringCost;
+}
+
+public void setCateringCost(int cateringCost) {
+	this.cateringCost = cateringCost;
+}
+@ManyToOne
+@JoinColumn(name="cityId")
+public City getCity() {
+	return city;
+}
+
+public void setCity(City city) {
+	this.city = city;
+}
+@ManyToOne
+@JoinColumn(name = "userid")
+public User getUser() {
+	return user;
+}
+
+public void setUser(User user) {
+	this.user = user;
+}
+
+
+
+@Override
+public String toString() {
+	return "Packages [packageId=" + packageId + ", packageName=" + packageName + ", decorationCost=" + decorationCost
+			+ ", photographyCost=" + photographyCost + ", venueCost=" + venueCost + ", totalCost=" + totalCost
+			+ ", cateringCost=" + cateringCost + "]";
+}
+
+
+
+}

@@ -1,0 +1,57 @@
+package com.app.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.dao.IPackageDao;
+import com.app.pojos.Packages;
+
+@CrossOrigin(allowedHeaders="*")
+@RestController
+@RequestMapping("/planner")
+public class PackageController
+{
+
+	@Autowired
+	private IPackageDao dao;
+	
+	public PackageController()
+	{
+		System.out.println("in planner controller");
+	}
+
+	@PostMapping("/addPackage/{city}")
+	public Integer addPackage(@RequestBody Packages packages,@PathVariable String city)
+	{
+		System.out.println(packages);
+		packages.setCity(dao.getCityByName(city));
+		return dao.addPackage(packages);
+	}
+	@GetMapping
+	public List<Packages> getAllHotels()
+	{
+		return dao.getAllPackages();
+	}
+	@GetMapping("/delete/{packageId}")
+	public boolean deleteRoom(@PathVariable Integer packageId)
+	{
+		System.out.println(packageId);
+		return dao.deletePackage(packageId);
+	}
+	
+	@GetMapping("/getPackageDetails/{packageId}")
+	public Packages getPackageDetails(@PathVariable Integer packageId)
+	{
+		System.out.println(packageId);
+		System.out.println(dao.getPackagesById(packageId));
+		return dao.getPackagesById(packageId);
+	}
+}

@@ -1,0 +1,60 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.app.pojos.User;
+@CrossOrigin(allowedHeaders = "*")
+@Service
+@Transactional
+public class UserDaoImpl implements IUserDao{
+	@Autowired
+	SessionFactory sf;
+
+	@Override
+	public Integer registerUser(User user) {
+		
+		
+		return  (Integer) sf.getCurrentSession().save(user);
+		
+	}
+
+	@Override
+	public List<User> allUser() {
+		String jpql="select u from User u";
+		// TODO Auto-generated method stub
+		return sf.getCurrentSession().createQuery(jpql,User.class).getResultList() ;
+	}
+
+	@Override
+	public User login(User user) {
+		String jpql="select u from User u where u.email=:em and u.password=:pass";
+		
+		return sf.getCurrentSession().createQuery(jpql,User.class).setParameter("em",user.getEmail()).setParameter("pass", user.getPassword()).getSingleResult();
+	}
+
+	public User validateUser(String email, String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findByEmail(String em) {
+		String jpql = "select u from User u where u.email=:em";
+		return sf.getCurrentSession().createQuery(jpql,User.class).setParameter("email",em).getSingleResult();
+	}
+
+	
+	
+	
+	
+	
+
+	
+
+}

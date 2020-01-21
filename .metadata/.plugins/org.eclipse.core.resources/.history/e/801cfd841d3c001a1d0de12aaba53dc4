@@ -1,0 +1,17 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.City;
+import com.app.pojos.Packages;
+
+public interface IPackageDao {
+
+	public Integer addPackage(Packages packages);
+	List<Packages> getAllPackages();
+	public Packages getPackagesById(int id);
+	public boolean deletePackage(Integer packageId); 
+	//public City searchCity(String cityName);
+	public City getCityByName(String city);
+
+}

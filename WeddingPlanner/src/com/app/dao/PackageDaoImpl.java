@@ -1,0 +1,86 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import com.app.pojos.City;
+import com.app.pojos.Packages;
+@CrossOrigin(allowedHeaders="*")
+@Repository
+@Service
+@Transactional
+public class PackageDaoImpl implements IPackageDao {
+
+	@Autowired
+	private SessionFactory sf;
+
+	@Override
+	public Integer addPackage(Packages packages) {
+		System.out.println(packages);
+		return (Integer) sf.getCurrentSession().save(packages);
+	}
+
+	@Override
+	public List<Packages> getAllPackages() {
+		String jpql="select p from Packages p";
+		return 	sf.getCurrentSession().createQuery(jpql,Packages.class).getResultList();
+		
+	}
+
+	@Override
+	public Packages getPackagesById(int id) {
+		return sf.getCurrentSession().get(Packages.class, id);
+	}
+
+	@Override
+	public boolean deletePackage(int packageId) {
+		System.out.println(packageId);
+		
+		Packages packages=sf.getCurrentSession().get(Packages.class,packageId);
+		sf.getCurrentSession().delete(packages);
+		return true;
+	}
+	
+
+
+	@Override
+	public City getCityByName(String city) 
+	{
+		System.out.println(city);
+		String jpql="select c from City c where c.cityName=:city";
+		return sf.getCurrentSession().createQuery(jpql,City.class).setParameter("city",city).getSingleResult();
+	}
+
+	@Override
+	public Packages getPackageDetail(int packageId)   //for delete
+	{
+		
+		return sf.getCurrentSession().createQuery("select p from Packages p inner join fetch p.city where p.packageId=:id",Packages.class).setParameter("id", packageId).getSingleResult();
+	}
+
+	@Override
+	public String updatePackageById(Packages p) 
+	{
+		System.out.println(p);
+		Packages pack = (Packages) sf.getCurrentSession().get(Packages.class,p.getPackageId());
+		pack.setPackageName(p.getPackageName());
+		pack.setCateringCost(p.getCateringCost());
+		pack.setDecorationCost(p.getDecorationCost());
+		pack.setPhotographyCost(p.getPhotographyCost());
+		pack.setVenueCost(p.getVenueCost());
+		pack.setTotalCost(p.getTotalCost());
+	//	pack.setCity(p.getCity());
+//		sf.getCurrentSession().update(p);
+		return "update";
+	}
+		
+	}
+	
+	
+

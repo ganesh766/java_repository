@@ -1,0 +1,124 @@
+package com.app.pojos;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
+@Entity
+@Table(name = "packages")
+public class Packages {
+	private Integer packageId;
+
+	@NotEmpty(message = "enter package Name")
+	private String packageName;
+
+	@NotNull(message = "enter cost")
+	private int decorationCost;
+	@NotNull(message = "enter cost")
+	private int photographyCost;
+	@NotNull(message = "enter cost")
+	private int venueCost;
+
+	private int totalCost;
+	@NotNull(message = "enter  cost")
+	private int cateringCost;
+	private City city;
+
+	public Packages() {
+		// TODO Auto-generated constructor stub
+		this.city = new City();
+	}
+
+	public Packages(Integer packageId, String packageName, int decorationCost, int photographyCost, int venueCost,
+			int totalCost, int cateringCost, City city) {
+		super();
+		this.packageId = packageId;
+		this.packageName = packageName;
+		this.decorationCost = decorationCost;
+		this.photographyCost = photographyCost;
+		this.venueCost = venueCost;
+		this.totalCost = totalCost;
+		this.cateringCost = cateringCost;
+		this.city = city;
+	}
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public Integer getPackageId() {
+		return packageId;
+	}
+
+	public void setPackageId(Integer packageId) {
+		this.packageId = packageId;
+	}
+
+	public String getPackageName() {
+		return packageName;
+	}
+
+	public void setPackageName(String packageName) {
+		this.packageName = packageName;
+	}
+
+	public int getDecorationCost() {
+		return decorationCost;
+	}
+
+	public void setDecorationCost(int decorationCost) {
+		this.decorationCost = decorationCost;
+	}
+
+	public int getPhotographyCost() {
+		return photographyCost;
+	}
+
+	public void setPhotographyCost(int photographyCost) {
+		this.photographyCost = photographyCost;
+	}
+
+	public int getVenueCost() {
+		return venueCost;
+	}
+
+	public void setVenueCost(int venueCost) {
+		this.venueCost = venueCost;
+	}
+
+	public int getTotalCost() {
+		return totalCost;
+	}
+
+	public void setTotalCost(int totalCost) {
+		this.totalCost = totalCost;
+	}
+
+	public int getCateringCost() {
+		return cateringCost;
+	}
+
+	public void setCateringCost(int cateringCost) {
+		this.cateringCost = cateringCost;
+	}
+
+	@JsonBackReference
+	@ManyToOne
+	@JoinColumn(name = "cityId")
+	public City getCity() {
+		return city;
+	}
+
+	public void setCity(City city) {
+		this.city = city;
+	}
+
+	@Override
+	public String toString() {
+		return "Packages [packageId=" + packageId + ", packageName=" + packageName + ", decorationCost="
+				+ decorationCost + ", photographyCost=" + photographyCost + ", venueCost=" + venueCost + ", totalCost="
+				+ totalCost + ", cateringCost=" + cateringCost + ", city=" + city + "]";
+	}
+
+}

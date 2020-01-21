@@ -1,0 +1,32 @@
+package com.app.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.pojos.Packages;
+
+@Service
+@Transactional
+public class PackageDaoImpl implements IPackageDao {
+
+	@Autowired
+	private SessionFactory sf;
+
+	@Override
+	public Integer addPackage(Packages packages) {
+		return (Integer) sf.getCurrentSession().save(packages);
+	}
+
+	@Override
+	public List<Packages> getAllPackages() {
+		String jpql="select p from Packages p";
+		return 	sf.getCurrentSession().createQuery(jpql,Packages.class).getResultList();
+		
+	}
+
+	
+}

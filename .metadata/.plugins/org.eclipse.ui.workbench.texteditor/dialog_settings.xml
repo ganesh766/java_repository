@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="&#x0A;&#x09;&#x0A;&#x09;&lt;mvc:resources location=&quot;/&quot; mapping=&quot;/**&quot;/&gt;&#x0A;&#x09;&#x0A;&#x09;&lt;bean id=&quot;multipartResolver&quot; class=&quot;org.springframework.web.multipart.commons.CommonsMultipartResolver&quot;&gt;&#x0A;        &lt;property name=&quot;maxUploadSize&quot; value=&quot;100000000000000&quot;/&gt;&#x0A;    &lt;/bean&gt; &#x0A;&#x09;" key="selection"/>
+		<list key="findhistory">
+			<item value="&#x0A;&#x09;&#x0A;&#x09;&lt;mvc:resources location=&quot;/&quot; mapping=&quot;/**&quot;/&gt;&#x0A;&#x09;&#x0A;&#x09;&lt;bean id=&quot;multipartResolver&quot; class=&quot;org.springframework.web.multipart.commons.CommonsMultipartResolver&quot;&gt;&#x0A;        &lt;property name=&quot;maxUploadSize&quot; value=&quot;100000000000000&quot;/&gt;&#x0A;    &lt;/bean&gt; &#x0A;&#x09;"/>
+		</list>
+	</section>
+</section>
